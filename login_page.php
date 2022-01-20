@@ -114,9 +114,9 @@ layout_login_page_begin();
 
 <div class="col-md-offset-3 col-md-6 col-sm-10 col-sm-offset-1">
 	<div class="login-container">
-		<div class="space-12 hidden-480"></div>
+		<div class="space-32 hidden-480"></div>
 		<?php layout_login_page_logo() ?>
-		<div class="space-24 hidden-480"></div>
+		<div class="space-5 hidden-480"></div>
 <?php
 if( $f_error || $f_cookie_error ) {
 	echo '<div class="alert alert-danger">';

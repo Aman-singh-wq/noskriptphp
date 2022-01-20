@@ -2499,13 +2499,13 @@ function filter_form_draw_inputs( $p_filter, $p_for_screen = true, $p_static = f
 			null /* class */,
 			'show_priority_filter_target' /* content id */
 			));
-	$t_row1->add_item( new TableFieldsItem(
-			$get_field_header( 'show_severity_filter', lang_get( 'severity' ) ),
-			filter_form_get_input( $t_filter, 'show_severity', $t_show_inputs ),
-			1 /* colspan */,
-			null /* class */,
-			'show_severity_filter_target' /* content id */
-			));
+	// $t_row1->add_item( new TableFieldsItem(
+	// 		$get_field_header( 'show_severity_filter', lang_get( 'severity' ) ),
+	// 		filter_form_get_input( $t_filter, 'show_severity', $t_show_inputs ),
+	// 		1 /* colspan */,
+	// 		null /* class */,
+	// 		'show_severity_filter_target' /* content id */
+	// 		));
 	$t_row1->add_item( new TableFieldsItem(
 			$get_field_header( 'view_state_filter', lang_get( 'view_status' ) ),
 			filter_form_get_input( $t_filter, 'view_state', $t_show_inputs ),

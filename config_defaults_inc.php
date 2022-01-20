@@ -1110,7 +1110,8 @@ $g_favicon_image = 'images/favicon.ico';
  * Logo
  * @global string $g_logo_image
  */
-$g_logo_image = 'images/mantis_logo.png';
+//$g_logo_image = 'images/mantis_logo.png';
+$g_logo_image = 'images/ust_logo.png';
 
 /**
  * Logo URL link
@@ -2599,26 +2600,26 @@ $g_bug_view_page_fields = array(
 	'description',
 	'due_date',
 	'eta',
-	'fixed_in_version',
+	// 'fixed_in_version',
 	'handler',
 	'id',
 	'last_updated',
-	'os',
-	'os_build',
-	'platform',
+	// 'os',
+	// 'os_build',
+	// 'platform',
 	'priority',
 	'product_build',
 	'product_version',
 	'project',
 	'projection',
 	'reporter',
-	'reproducibility',
+	// 'reproducibility',
 	'resolution',
-	'severity',
+	// 'severity',
 	'status',
-	'steps_to_reproduce',
+	// 'steps_to_reproduce',
 	'summary',
-	'tags',
+	// 'tags',
 	'target_version',
 	'view_state',
 );
@@ -4099,7 +4100,7 @@ $g_time_tracking_billing_rate = 0;
  * Enable Profiles
  * @global integer $g_enable_profiles
  */
-$g_enable_profiles = ON;
+$g_enable_profiles = OFF;
 
 /**
  * Add profile threshold
